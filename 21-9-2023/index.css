@@ -1,0 +1,98 @@
+body{
+  background: yellow;
+}
+
+.central-box{
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.upper-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box{
+  background-color: orange;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+}
+
+.inner-box{
+  background-color:yellow;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.filled-box{
+  height: 80px;
+  width:80px;
+  background-color: orange;
+  postion: absolute;
+  border-radius: 20px;
+}
+
+.one{
+  position: absolute;
+  left: 740px;
+  top: 40px;
+}
+
+.two{
+  position: absolute;
+  left: 585px;
+  top: 120px;
+}
+.three{
+  position: absolute;
+  left: 820px;
+  top: 200px;
+}
+.four{
+  position: absolute;
+  left: 660px;
+  top: 280px;
+}
+
+.angled-box{
+  width: 70px;
+  height: 70px;
+  background-color: orange;
+  transform: rotate(45deg);
+  border-radius: 20px;
+}
+
+.five{
+  position: absolute;
+  top: 50px;
+  left: 670px;
+}
+
+.six{
+  position: absolute;
+  top: 203px;
+  left: 590px;
+}
+
+.seven{
+  position: absolute;
+  top: 125px;
+  left: 827px;
+}
+
+.eigth{
+  position: absolute;
+  top: 285px;
+  left: 746px;
+}
