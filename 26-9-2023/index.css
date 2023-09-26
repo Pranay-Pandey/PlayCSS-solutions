@@ -1,0 +1,46 @@
+body { background: #99c5b5; }
+.wrapper {
+   margin-top: 25px;
+   display: flex;
+   flex-direction: column;
+}
+.central {
+   display: flex;
+   align-items: center;
+}
+.circle {
+   background-color: #99c5b5;
+   width: 70px;
+   height: 100px;
+   border-radius: 50%;
+   top: 50%;
+}
+.central-box {
+   width: 120px;
+   height: 140px;
+   background-color: #706c61;
+   margin: auto;
+}
+.circular {
+   background-color: #706c61;
+   margin: auto;
+   border-radius: 20px;
+}
+.upper {
+   width: 240px;
+   height: 30px;
+}
+.middle {
+   width: 220px;
+   height: 40px;
+}
+.one {position: absolute;
+   top: 140;
+   right: 100;
+}
+
+
+.two { position: absolute;
+   top:140;
+   left: 100;
+}
