@@ -1,0 +1,24 @@
+body { background: #ef476f;
+}
+
+.circle{
+   background-color: #ffc43d;
+   height: 260px;
+   width: 260px;
+   margin: auto;
+   margin-top: 60px;
+   border-radius: 50%;
+}
+
+.triangle{
+   height: 0px;
+   width: 0px;
+   position: absolute;
+   right: 70px;
+   top: 60px;
+   
+   border-right: 140px solid #ef476f;
+   border-left: 140px solid transparent;
+   border-bottom: 140px solid transparent;
+   border-top: 140px solid transparent;
+}
