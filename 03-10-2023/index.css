@@ -1,0 +1,63 @@
+body { background: #dbfeb8; }
+.holder{
+   width: 400px;
+   height: 330px;
+   margin: auto;
+   margin-top: 8%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.col{
+   width: 400px;
+   height: 100px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+.circle{
+   background-color: #7a918d;
+   width: 80px;
+   height: 80px;
+   margin: auto;
+   border-radius: 50%;
+   display: flex;
+}
+
+.inner-circle{
+   background-color: #dbfeb8;
+   width: 40px;
+   height: 40px;
+   margin: auto auto;
+   border-radius: 50%;
+}
+
+.outer-circle{
+   background-color: #dbfeb8;
+   
+   margin-left: -90px;
+}
+
+.two{
+   margin-left: 0;
+   margin-right: -90px;
+   z-index: 5;
+}
+
+.three{
+   background-color: #dbfeb8;
+   width: 77px;
+   height: 77px;
+   margin-left: -108px;
+   margin-bottom: -2px;
+}
+
+.diff{
+   margin-top: -2;
+}
+
+.middle{
+   margin-left: 0px;
+}
