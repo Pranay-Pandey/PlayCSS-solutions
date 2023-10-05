@@ -1,0 +1,45 @@
+
+body { background: #ddf093; 
+   display: flex;
+}
+.container{
+   width: 300px;
+   height: 300px;
+   margin: auto;
+   position: relative;
+}
+
+.upper{
+   background-color: #ce4760;
+   height: 250px;
+   width: 250px;
+   border-radius: 22px;
+}
+
+.lower{
+   background-color: #ce4760;
+   height: 250px;
+   width: 250px;
+   border-radius: 22px;
+   position: absolute;
+   top: 40px;
+   left: 50px;
+   border: 10px solid #ddf093;
+   display: flex;
+}
+
+.line{
+   width: 300px;
+   height: 50px;
+   margin: auto auto;
+   transform: rotate(45deg);
+   display: flex;
+   justify-content: space-between;
+}
+
+.circle{
+   background-color: #ddf093;
+   height: 55px;
+   width: 55px;
+   border-radius: 50%;
+}
