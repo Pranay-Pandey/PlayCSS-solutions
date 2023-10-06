@@ -1,0 +1,40 @@
+body {
+  background-color: #7353ba;
+  display: flex;
+}
+
+
+.container {
+  width: 150px;
+  height: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  background-color: #7353ba;
+  margin-left;
+  auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 30px solid #efc3f5;
+}
+
+.line {
+  height: 210px;
+  width: 0px;
+  background-color: #7353ba;
+  border-left: 30px solid #efc3f5;
+  border-right: 0px solid #efc3f5;
+  position: absolute;
+  top: 70px;
+}
+
+.two {
+  right: 0px;
+}
