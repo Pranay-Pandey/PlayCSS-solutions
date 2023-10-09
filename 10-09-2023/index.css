@@ -1,0 +1,52 @@
+
+body { background: #f0d3f7; }
+.container{
+   width: 385px;
+   height: 389px;
+   
+   margin: auto;
+   display: flex;
+   position: relative;
+}
+.circle{
+   background-color: #1e352f;
+   height: 60px;
+   width: 110px;
+   margin: auto;
+   border-radius: 50%;
+}
+
+.square{
+   position: absolute;
+   background-color: #1e352f;
+   border-radius: 20px;
+}
+
+.one{
+   height: 100px;
+   width: 100px;
+   top: 20px;
+   left: 20px;
+}
+
+.two{
+   height: 120px;
+   width: 120px;
+   bottom: 10px;
+   left: 20px;
+}
+
+.three{
+   border-radius: 15px;
+   height: 55px;
+   width: 55px;
+   right: 50px;
+   top: 50px;
+}
+
+.four{
+   height: 80px;
+   width: 80px;
+   bottom: 20px;
+   right: 30px;
+}
