@@ -1,0 +1,98 @@
+
+body { background: #fefee3; 
+   display: flex;
+}
+
+.holder{
+   width: 300px;
+   height: 330px;
+   margin: auto;
+   position: relative;
+}
+
+.top-circle{
+   margin: auto;
+   width: 190px;
+   height: 200px;
+   background-color: #d68c45;
+   border-radius: 50%;
+}
+
+.bottom-circle{
+   margin: auto;
+   position: absolute;
+   margin: auto;
+   top: 60px;
+   left: 35px;
+   width: 230px;
+   height: 220px;
+   background-color: #d68c45;
+   border-radius: 50%;
+}
+
+.small-circle-top{
+   border-radius: 50%;
+   background-color: #d68c45;
+   width: 35px;
+   height: 35px;
+   position: absolute;
+   top: 110px;
+}
+
+.right{
+   right: 0px;
+}
+
+.big-circle-bottom{
+   border-radius: 50%;
+   background-color: #d68c45;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   bottom: 15px;
+   left: 20px;
+}
+
+.big-circle-bottom-right{
+   border-radius: 50%;
+   background-color: #d68c45;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   bottom: 15px;
+   right: 20px;
+}
+
+.eye{
+   background-color: #fefee3;
+   border-radius: 50%;
+   width: 35px;
+   height: 35px;
+   position: absolute;
+   top: 30px;
+   left: 100px;
+   z-index: 1;
+}
+
+.eye-right{
+   background-color: #fefee3;
+   border-radius: 50%;
+   width: 35px;
+   height: 35px;
+   position: absolute;
+   top: 30px;
+   right: 100px;
+   z-index: 1;
+}
+
+.oval{
+   background-color: #fefee3;
+   width: 170px;
+   height: 90px;
+   margin: auto auto;
+   position: absolute;
+   left: 65px;
+   top: 110px;
+   border-radius: 50%;
+   z-index:5;
+}
