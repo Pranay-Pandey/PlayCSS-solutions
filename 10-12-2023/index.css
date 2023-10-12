@@ -1,0 +1,76 @@
+
+body { background: #d4a373; 
+   display: flex;
+}
+
+.container{
+  
+   width: 250px;
+   height: 310px;
+   margin: auto;
+   position: relative;
+  margin-top: 40px;
+}
+
+.bone{
+   position: relative;
+   width: 250px;
+   height: 80px;
+}
+
+.axle{
+   background-color: #fefae0;
+   width: 250px;
+   height: 80px;
+}
+
+.corner{
+   background-color: #fefae0;
+   height: 40px;
+   width: 40px;
+   border-radius: 7px;
+   position: absolute;
+   top: -15px;
+   left: -15px;
+   transform: rotate(45deg);
+}
+
+.corner-2{
+   background-color: #fefae0;
+   height: 40px;
+   width: 40px;
+   border-radius: 7px;
+   position: absolute;
+   right: -15px;
+   top: -15px;
+   transform: rotate(135deg);
+}
+
+.corner--three{
+   background-color: #fefae0;
+   height: 40px;
+   width: 40px;
+   border-radius: 7px;
+   position: absolute;
+   bottom: -15px;
+   left: -15px;
+   transform: rotate(45deg);
+}
+
+.corner-4{
+   background-color: #fefae0;
+   height: 40px;
+   width: 40px;
+   border-radius: 7px;
+   position: absolute;
+   bottom: -15px;
+   right: -15px;
+   transform: rotate(45deg);
+}
+
+.rod{
+   background-color: #fefae0;
+   width: 70px;
+   height: 150px;
+   margin: auto;
+}
