@@ -1,0 +1,70 @@
+
+body { background: #750d37; 
+  margin: auto;
+}
+
+
+.container{
+   width: 400px;
+   height: 310px;
+   margin: auto;
+   margin-left: -8px;
+   position: relative;
+}
+
+.hori-holder{
+   width: 240px;
+   height: 230px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.hori{
+   background-color: #fbba72;
+   width: 240px;
+   height: 55px;
+   border-radius: 0px 40px 40px 0px;
+}
+
+.holder-2{
+   position: absolute;
+   right: 0px;
+   bottom: 0px;
+   transform: scale(-1, -1);
+}
+
+.star-container{
+   width: 160px;
+   height: 235px;
+   position: absolute;
+   top: 75px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.star{
+   width: 140px;
+   height: 60px;
+   display: flex;
+   margin-left: 10px;
+   margin-right: 10px;
+   
+   justify-content: space-between;
+}
+
+.starbox{
+   width: 40px;
+   height: 40px;
+   background-color: #fbba72;
+   margin: auto;
+   border-radius: 10px;
+   transform: rotate(45deg);
+}
+
+.st--container-2{
+   position: absolute;
+   right: 0px;
+   top: 0px;
+}
