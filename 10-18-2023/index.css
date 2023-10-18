@@ -1,0 +1,33 @@
+
+body { background: #d35269;
+display: flex;}
+.container{
+   width: 320px;
+   height: 240px;
+   margin: auto;
+}
+.row{
+   height: 49px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.circle{
+   background-color: #ccd6eb;
+   height: 38px;
+   width: 38px;
+   border-radius: 50%;
+}
+
+.row1{
+   width: 250px;
+}
+
+.row2{
+   width: 310px;
+}
+
+.row3{
+   width: 250px;
+}
