@@ -1,0 +1,90 @@
+
+body { background: #e9e3e6;
+
+   display: flex;
+}
+
+.container{
+   width: 350px;
+   height: 360px;
+   margin: auto;
+   position: relative;
+}
+
+.element{
+   background-color: pink;
+   width: 50px;
+   height: 350px;
+   margin: auto;
+}
+
+.long{
+   background-color: #736f72;
+   width: 55px;
+   height: 360px;
+}
+
+.top--traingle{
+   width: 0px;
+   height: 0px;
+   border-left: 28px solid transparent;
+   border-right: 28px solid transparent;
+   border-top: 25px solid #e9e3e6;
+   position: absolute;
+   top: -1px;
+}
+
+.bottom--traingle{
+   width: 0px;
+   height: 0px;
+   border-left: 28px solid transparent;
+   border-right: 28px solid transparent;
+   border-bottom: 25px solid #e9e3e6;
+   margin-top: -24px;
+}
+
+.element--two{
+   position: absolute;
+   top: 0px;
+   left: 150px;
+   transform: rotate(-45deg);
+}
+
+
+.element--three{
+   position: absolute;
+   top: 0px;
+   left: 150px;
+   transform: rotate(-90deg);
+}
+
+.element--four{
+   position: absolute;
+   top: 0px;
+   left: 150px;
+   transform: rotate(-135deg);
+}
+
+.diamond{
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   top: 156px;
+   left: 153px;
+}
+
+.top--diamond{
+   width: 0px;
+   height: 0px;
+   border-bottom: 25px solid #e9e3e6;
+   border-right: 25px solid transparent;
+   border-left: 25px solid transparent;
+}
+
+.bottom--diamond{
+   width: 0px;
+   height: 0px;
+   border-top: 25px solid #e9e3e6;
+   border-right: 25px solid transparent;
+   border-left: 25px solid transparent;
+}
