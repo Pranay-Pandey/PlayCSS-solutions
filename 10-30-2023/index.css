@@ -1,0 +1,87 @@
+body { background: #945a56; 
+   display: flex;
+}
+.container{
+   background-color: #945a56;
+   width: 400px;
+   height: 400px;
+   margin-left: -8px;
+   margin-top: -8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   position: relative;
+}
+
+.circle{
+   background-color: #945a56;
+   width: 140px;
+   height: 140px;
+   border-radius: 50%;
+   border: 30px solid #cfdee7;
+   margin: auto;
+   position: absolute;
+   left: 100px;
+   top: 95px;
+}
+
+.block{
+   width: 100%;
+   height: 25px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.top{
+   width: 100%;
+   height: 28px;
+}
+
+.top > div{
+   width: 80px;
+}
+
+.one{
+   justify-content: space-evenly;
+}
+
+.one>div{
+   width: 90px;
+}
+
+.two >div {
+   width: 80px;
+}
+
+.three{
+   justify-content: space-evenly;
+}
+.three > div{
+   width: 130px;
+}
+
+.four{
+   justify-content: inherit;
+}
+.four > .brick{
+   width: 70px;
+}
+
+.five{
+   justify-content: space-evenly;
+}
+
+.five > div{
+   width: 130px;
+}
+
+.brick{
+   background-color: #cfdee7;
+   height: 100%;
+   width: 20px;
+}
+
+.special{
+   width: 90px;
+   background-color:  #cfdee7;
+}
