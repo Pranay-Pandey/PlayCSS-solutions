@@ -1,0 +1,61 @@
+
+body { 
+   background-color: #8e518d;}
+   
+.container{
+   width: 400px;
+   height: 400px;
+   margin-top:-8px;
+   margin-left: -8px;
+   position: relative;
+}
+
+.central{
+   background-color: #f7c7db;
+   width: 70px;
+   height: 400px;
+   margin: auto;
+}
+
+.hori{
+   background-color: #f7c7db;
+   width: 200px;
+   height: 65px;
+   position: absolute;
+   top: 90px;
+}
+
+.right{
+   right: 0px;
+   top: 230px;
+}
+
+.element{
+   width: 120px;
+   height: 120px;
+   position: absolute;
+   bottom: 100px;
+}
+
+.rect{
+   width: 40px;
+   height: 40px;
+   background-color: #f7c7db;
+   position: absolute;
+   right: 0px;
+}
+.vi{
+   width: 40px;
+   height: 40px;
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+   border: 20px solid #f7c7db;
+}
+
+.ele-two{
+   position: absolute;
+   right: 0px;
+   top: 90px;
+   transform: scale(-1);
+}
