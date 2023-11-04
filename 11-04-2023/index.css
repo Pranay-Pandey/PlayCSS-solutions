@@ -1,0 +1,100 @@
+body { background: #f1f1f1; }
+.container{
+   background-color: #556f44;
+   width: 400px;
+   height: 400px;
+   margin-top: -8px;
+   margin-left: -8px;
+   position: relative;
+}
+.spacer{
+   height: 40px;
+}
+.top--triangle{
+   width: 0px;
+   height: 0px;
+   margin: auto;
+   border-bottom: 200px solid #95bf74;
+   border-left: 80px solid transparent;
+   border-right: 80px solid transparent;
+}
+.trapezium{
+   height: 0px;
+   width: 160px;
+   margin: auto;
+   border-bottom: 160px solid #95bf74;
+   border-left: 120px solid transparent;
+   border-right: 120px solid transparent;
+}
+.trapezium--two{
+   height: 0px;
+   width: 200px;
+   border-bottom: 45px solid #556f44;
+   border-left: 45px solid transparent;
+   border-right: 45px solid transparent;
+   margin: auto;
+   margin-top: -40px;
+}
+.inner--triangle{
+   width: 0px;
+   height: 0px;
+   margin: auto;
+   margin-top: -290px;
+   border-bottom: 170px solid #556f44;
+   border-left: 75px solid transparent;
+   border-right: 75px solid transparent;
+}
+.inverted--triangle{
+   
+   width: 0px;
+   height: 0px;
+   margin: auto;
+   border-top: 43px solid #556f44;
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+}
+.column{
+   width: 20px;
+   height: 310px;
+   position: absolute;
+   left: 25px;
+   top: 20px;
+}
+.one{
+   background-color: #95bf74;
+   width: 11px;
+   margin: auto;
+   height: 30px;
+   border-radius: 10px;
+}
+.spacer-1{height: 66px;}
+.spacer-2{height: 60px;}
+.spacer-3{height: 37px;}
+.two{
+   background-color: #95bf74;
+   width: 11px;
+   margin: auto;
+   height: 35px;
+   border-radius: 10px;
+}
+.three{
+   background-color: #95bf74;
+   width: 12px;
+   margin: auto;
+   height: 33px;
+   border-radius: 10px;
+}
+.four{
+   background-color: #95bf74;
+   width: 16px;
+   margin: auto;
+   height: 45px;
+   border-radius: 10px;
+}
+.column-2{
+   width: 20px;
+   height: 310px;
+   position: absolute;
+   right: 25px;
+   top: 20px;
+}
