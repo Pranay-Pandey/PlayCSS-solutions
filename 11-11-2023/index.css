@@ -1,0 +1,82 @@
+body { 
+   background-color: #3b3355;
+   display: flex;
+}
+.container{
+   width: 380px;
+   height: 300px;
+   margin: auto;
+}
+.base{
+   margin: auto;
+   width: 250px;
+   border-left: 40px solid transparent;
+   border-right: 40px solid transparent;
+   border-bottom: 190px solid #fefcfd;
+   position: relative;
+}
+.triangles{
+   margin: auto;
+   height: 100px;
+   width: 250px;
+   position: relative;
+}
+.triangle-1{
+   height: 0px;
+   width: 0px;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   border-bottom: 40px solid #fefcfd;
+   position: absolute;
+   top: 60px;
+}
+.triangle-2{
+   height: 0px;
+   width: 0px;
+   border-left: 80px solid transparent;
+   border-right: 80px solid transparent;
+   border-bottom: 100px solid #fefcfd;
+   position: absolute;
+   top: 0px;
+   left: 50px;
+}
+.triangle-3{
+   height: 0px;
+   width: 0px;
+   border-left: 70px solid transparent;
+   border-right: 70px solid transparent;
+   border-bottom: 100px solid #fefcfd;
+   position: absolute;
+   top: 15px;
+   left: 100px;
+}
+.triangle-4{
+   height: 0px;
+   width: 0px;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   border-bottom: 40px solid #fefcfd;
+   position: absolute;
+   top: 60px;
+   right: 0px;
+}
+.inner-tri-1{
+   position: absolute;
+   top: 140px;
+   left: -14px;
+   width: 0px;
+   height: 0px;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 50px solid #3b3355;
+}
+.inner-tri-2{
+   position: absolute;
+   top: 140px;
+   right: -14px;
+   width: 0px;
+   height: 0px;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 50px solid #3b3355;
+}
