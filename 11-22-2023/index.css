@@ -1,0 +1,71 @@
+body { 
+   background-color: #52ad9c;
+}
+.container{
+   width: 350px;
+   height: 350px;
+   margin: auto;
+   position: relative;
+}
+.center-ver{
+   width: 80px;
+   height: 350px;
+   background-color: #47624f;
+   border-radius: 80px;
+   position: absolute;
+   left: 135px;
+}
+.center-hor{
+   width: 350px;
+   height: 80px;
+   background-color: #47624f;
+   border-radius: 80px;
+   position: absolute;
+   top: 135px;
+}
+.circle{
+   width: 55px;
+   height: 55px;
+   background-color: #52ad9c;
+   border-radius: 50%;
+}
+.pos-1{
+   position: absolute;
+   left: 148px;
+   top: 148px;
+}
+.pos-2{
+   position: absolute;
+   left: 148px;
+   top: 15px;
+}
+.pos-3{
+   position: absolute;
+   left: 15px;
+   top: 148px;
+}
+.pos-4{
+   position: absolute;
+   right: 15px;
+   top: 148px;
+}
+.pos-5{
+   position: absolute;
+   left: 148px;
+   bottom: 15px;
+}
+.line{
+   width: 200px;
+   height: 15px;
+   background-color: #47624f;
+}
+.one{
+   position: absolute;
+   top: 90px;
+   left: 75px;
+}
+.two{
+   position: absolute;
+   bottom: 90px;
+   left: 75px;
+}
